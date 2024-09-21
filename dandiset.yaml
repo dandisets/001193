@@ -18,9 +18,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1180558576
-  numberOfFiles: 34
-  numberOfSubjects: 9
+  numberOfBytes: 1365465792
+  numberOfFiles: 40
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -30,8 +30,8 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
 citation: 'Shao, TongZe (2024) Data for: Distinct spatiotemporal patterns of syntactic
-  and semantic processing in human inferior frontal gyrus (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/001193/draft'
+  and semantic processing in human inferior frontal gyrus (Version 0.240921.1006)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001193/0.240921.1006'
 contributor:
 - affiliation: []
   email: shaoxydd8888@gmail.com
@@ -50,12 +50,13 @@ description: 'This dataset comprises high-gamma brain activity recordings (70-15
   community. This dataset supports the findings published in the article "Distinct
   spatiotemporal patterns of syntactic and semantic processing in human inferior frontal
   gyrus," accessible via DOI: 10.1038/s41562-022-01334-6.'
-id: DANDI:001193/draft
+doi: 10.48324/dandi.001193/0.240921.1006
+id: DANDI:001193/0.240921.1006
 identifier: DANDI:001193
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001193/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001193/0.240921.1006/assets.yaml
 name: 'Data for: Distinct spatiotemporal patterns of syntactic and semantic processing
   in human inferior frontal gyrus'
 publishedBy:
@@ -73,5 +74,5 @@ publishedBy:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-url: https://dandiarchive.org/dandiset/001193/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001193/0.240921.1006
+version: 0.240921.1006
