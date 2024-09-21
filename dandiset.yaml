@@ -41,6 +41,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-09-15T10:15:00.439571+00:00'
+datePublished: '2024-09-21T10:06:46.306271+00:00'
 description: 'This dataset comprises high-gamma brain activity recordings (70-150
   Hz) obtained through electrocorticography (ECoG) from human subjects. It focuses
   on neural responses during syntactic and semantic processing tasks, specifically
@@ -57,6 +58,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001193/versions/draft/assets/
 name: 'Data for: Distinct spatiotemporal patterns of syntactic and semantic processing
   in human inferior frontal gyrus'
+publishedBy:
+  endDate: '2024-09-21T10:06:46.306271+00:00'
+  id: urn:uuid:caa96381-23d1-4c04-b187-a977e0ac62cc
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-09-21T10:06:46.306271+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:fde00872-7413-4e07-aaf1-36c0f4ffb357
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
