@@ -6,9 +6,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1180558576
+  numberOfFiles: 34
+  numberOfSubjects: 9
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - ElectricalSeries
 citation: 'Shao, TongZe (2024) Data for: Distinct spatiotemporal patterns of syntactic
   and semantic processing in human inferior frontal gyrus (Version draft) [Data set].
   DANDI archive. https://dandiarchive.org/dandiset/001193/draft'
